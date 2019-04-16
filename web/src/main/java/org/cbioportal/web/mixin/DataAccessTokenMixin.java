@@ -1,9 +1,6 @@
 package org.cbioportal.web.mixin;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import org.cbioportal.model.DataAccessToken;
 
 import java.util.Date;
 

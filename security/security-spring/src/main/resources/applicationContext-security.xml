@@ -58,7 +58,6 @@
     <!-- Used to compare token returned by authentication-provider against portal user db tables -->
     <b:bean id="tokenUserDetailsService" class="org.cbioportal.security.spring.authentication.googleplus.PortalUserDetailsService"/>
     <!-- End of Data Access Tokens beans -->
->>>>>>> Authenticating users via Data Access Tokens
 
     <!-- beans shared across any authentication system -->
     <b:beans profile="googleplus,openid,saml,ad,ldap">

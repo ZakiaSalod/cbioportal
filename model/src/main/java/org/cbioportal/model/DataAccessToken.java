@@ -57,9 +57,6 @@ public class DataAccessToken implements Serializable {
     }
 
     public boolean hasEarlierExpirationThanToken(DataAccessToken dataAccessToken) {
-        if (this.getExpiration().before(dataAccessToken.getExpiration())) {
-            return true;
-        }
-        return false;
+        return (this.expiration != null && this.expiration.before(dataAccessToken.getExpiration()));
     }
 }
